@@ -1,0 +1,23 @@
+{
+  "name": "reactjs-nodejs",
+  "version": "1.0.0",
+  "description": "A react js and node js app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzwolf/reactjs-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wzwolf/reactjs-nodejs/issues"
+  },
+  "homepage": "https://github.com/wzwolf/reactjs-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
