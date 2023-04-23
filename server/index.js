@@ -2,17 +2,15 @@
 
 //import express
 const express = require("express");
-// set port to env default or 3001
-const PORT = process.env.PORT || 3001;
-
+const PORT = process.env.PORT || 3000;
 const app = express();
 
-app.get("/api", (req, res) => { res.json({ 
-  message: "Hello from server!" });
+app.get('/api', (req, res) => {
+  res.send({ message: 'Hello from the server!' });
 });
 
-app.listen(PORT, () => {
-	console.log('listening on port ' + PORT);
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });
 
 
