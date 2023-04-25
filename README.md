@@ -10,5 +10,6 @@ express - web application framework
 react - user interface lib
 react-dom - web renderer for react 
 axios - Promise based HTTP client for the browser and node.js
+jsdoc - open source API documentation generator for Javascript
 
 
