@@ -1,0 +1,11 @@
+FROM debian:latest
+
+MAINTAINER wzwolfx wzwolfx@gmail.com
+
+RUN apt update -y
+RUN apt upgrade -y
+RUN apt install git -y
+RUN git clone https://github.com/wzwolf/reactjs-nodejs.git
+
+EXPOSE 3000
+EXPOSE 3001
